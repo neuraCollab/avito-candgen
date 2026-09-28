@@ -1,0 +1,15 @@
+# Python 3.14. torch ставится CPU-сборкой:
+#   pip install torch==2.14.0 --index-url https://download.pytorch.org/whl/cpu
+#   pip install -r requirements.txt
+numpy==2.5.3
+pandas==3.0.6
+pyarrow==25.0.1
+scipy==1.18.1
+scikit-learn==1.9.1
+lightgbm==4.7.0
+snowballstemmer==3.1.1
+torch==2.14.0
+transformers==5.17.0
+huggingface_hub==1.33.0
+safetensors==0.8.0
+tokenizers==0.23.2

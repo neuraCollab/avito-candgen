@@ -1,0 +1,5 @@
+# отправленный ответ храним байт-в-байт, без преобразования переводов строк
+answer.csv -text
+*.py text eol=lf
+*.md text eol=lf
+*.txt text eol=lf

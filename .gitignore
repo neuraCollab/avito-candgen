@@ -1,0 +1,12 @@
+# данные соревнования (у проверяющего свои копии)
+data/
+# промежуточные артефакты пайплайна (пересоздаются run_all.py)
+cache*/
+# модели: скачиваются src/fetch_models.py (веса — в релизе репозитория)
+models/
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+repro_log.txt
+answer_*.csv
